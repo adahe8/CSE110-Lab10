@@ -27,6 +27,7 @@ html {
 }
 
 h2 {
+  color: midnightblue;
   font-size: 2rem;
   margin: 0;
   text-align: center;
@@ -84,9 +85,15 @@ main > section {
   max-width: 425px;
 }
 
+#expose select {
+  height: 30px;
+  padding: 5px;
+  font-size: 15px;
+}
 #explore select {
   height: 30px;
   width: 425px;
+  font-size: 15px;
 }
 
 #expose button,
