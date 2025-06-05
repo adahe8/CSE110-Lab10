@@ -78,15 +78,31 @@ main > section {
   display: none;
 }
 
+#expose,
 #explore {
   justify-items: center;
   max-width: 425px;
 }
 
-#explore button,
 #explore select {
   height: 30px;
   width: 425px;
+}
+
+#expose button,
+#explore button {
+  background-color: white;
+  color: midnightblue;
+  border-color: midnightblue;
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;
+}
+button:hover {
+  color: cornflowerblue;
+  border-color: cornflowerblue;
+  filter: drop-shadow(10px 5px 3px #4444dd);
+  transition: 0.2s;
 }
 
 #explore img {
