@@ -8,9 +8,10 @@ body {
   align-items: center;
   display: grid;
   justify-items: center;
+  background-color: cornflowerblue;
 }
 
-body {
+body.blue {
   background-color: lightblue;
 }
 
@@ -106,8 +107,8 @@ main > section {
   padding: 5px;
 }
 button:hover {
-  color: cornflowerblue;
-  border-color: cornflowerblue;
+  color: #4444dd;
+  border-color: #4444dd;
   filter: drop-shadow(10px 5px 3px #4444dd);
   transition: 0.2s;
 }
